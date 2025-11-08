@@ -9,7 +9,7 @@ const app = express();
 connect();
 
 app.use(cors({
-  origin: 'https://revoire.vercel.app',
+  origin: 'https://revoire.netlify.app',
   methods: ["GET", "POST", "PATCH", "DELETE", "PUT"],
   credentials: true 
 }));
