@@ -9,7 +9,7 @@ const app = express();
 connect();
 
 app.use(cors({
-  origin: process.env.FRONTEND_URL,
+  origin: 'https://revoire.vercel.app',
   methods: ["GET", "POST", "PATCH", "DELETE", "PUT"],
   credentials: true 
 }));
